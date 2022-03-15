@@ -3,6 +3,7 @@ package com.reader.qurba.ui.splash
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
@@ -26,7 +27,7 @@ fun SplashScreen(navController: NavHostController){
 }
 @Composable
 fun SplashDesign(){
-    Image(painter = painterResource(id = R.drawable.splash), contentDescription = stringResource(id = R.string.splash_picture), contentScale = ContentScale.Crop )
+    Image(painter = painterResource(id = R.drawable.splash), contentDescription = stringResource(id = R.string.splash_picture), modifier = Modifier.fillMaxSize() )
 }
 
 @Preview
