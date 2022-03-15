@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Qurba</string>
+
+    <string name="splash">splash</string>
+    <string name="dashboard">dashboard</string>
+    <string name="POST">Share your food experiences</string>
+    <string name="HOME">home</string>
+    <string name="MENU">menu</string>
+    <string name="DIVIDE">divide</string>
+    <string name="PROFILE">profile</string>
+    <string name="FRIEND">friend</string>
+    <string name="DOT">.</string>
+    <string name="PersonVerified">p</string>
+    <string name="Button_TEXT">View Menu</string>
+    <string name="Like">Like</string>
+    <string name="Replay">Replay</string>
+    <string name="splash_picture">Splash Picture</string>
+    <string name="icon_top_bar">TopBarIcon</string>
+</resources>
